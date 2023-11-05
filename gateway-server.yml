@@ -31,7 +31,7 @@ spring:
         - id: google
           uri: https://www.google.com/
           predicates:
-          - Path=/google
+          - Path=/maps
         - id: baylor_route
           uri: https://www.baylor.edu/
           predicates:
