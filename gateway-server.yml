@@ -28,14 +28,14 @@ spring:
           - Path=/license/**
           filters:
           - RewritePath=/license/(?<path>.*), /$\{path}
-        - id: google
-          uri: https://www.google.com/
-          predicates:
-          - Path=/maps
-        - id: baylor_route
-          uri: https://www.baylor.edu/
-          predicates:
-          - Path=/canvas
+        # - id: google
+        #   uri: https://www.google.com/
+        #   predicates:
+        #   - Path=/maps
+        # - id: baylor_route
+        #   uri: https://www.baylor.edu/
+        #   predicates:
+        #   - Path=/canvas
         discovery:
           locator:
             enabled: true
