@@ -31,8 +31,8 @@ spring:
         - id: google
           uri: https://www.google.com/
           path: /google
-          predicates:
-          - Path=/**
+          # predicates:
+          # - Path=/**
         - id: baylor
           uri: https://www.baylor.edu/
           path: /baylor
