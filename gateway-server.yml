@@ -38,7 +38,7 @@ spring:
         #   path: /baylor
         #   predicates:
         #   - Path=/**
-        discovery:
-          locator:
-            enabled: true
-            lowerCaseServiceId: true
+        # discovery:
+        #   locator:
+        #     enabled: true
+        #     lowerCaseServiceId: true
