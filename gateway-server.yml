@@ -28,11 +28,11 @@ spring:
           - Path=/license/**
           filters:
           - RewritePath=/license/(?<path>.*), /$\{path}
-        - id: google
-          uri: https://www.google.com/
-          path: /google
-          predicates:
-          - Path=/**
+        # - id: google
+        #   uri: https://www.google.com/
+        #   path: /google
+        #   predicates:
+        #   - Path=/**
         discovery:
           locator:
             enabled: true
