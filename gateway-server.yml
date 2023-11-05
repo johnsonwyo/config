@@ -32,11 +32,10 @@ spring:
           uri: https://www.google.com/
           predicates:
           - Path=/google
-        - id: baylor
+        - id: baylor_route
           uri: https://www.baylor.edu/
-          path: baylor
           predicates:
-          - Path=/
+          - Path=/baylor
         discovery:
           locator:
             enabled: true
