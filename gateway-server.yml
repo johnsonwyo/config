@@ -37,7 +37,7 @@ spring:
           uri: https://www.baylor.edu/
           path: /baylor
           predicates:
-          - Path=/license/**
+          - Path=/baylor/**
         discovery:
           locator:
             enabled: true
