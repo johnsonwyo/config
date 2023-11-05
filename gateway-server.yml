@@ -30,9 +30,8 @@ spring:
           - RewritePath=/license/(?<path>.*), /$\{path}
         - id: google
           uri: https://www.google.com/
-          path: /google
           predicates:
-          - Path=/**
+          - Path=/google
         - id: baylor
           uri: https://www.baylor.edu/
           path: /baylor
