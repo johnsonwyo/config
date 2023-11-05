@@ -35,7 +35,7 @@ spring:
         - id: baylor_route
           uri: https://www.baylor.edu/
           predicates:
-          - Path=/baylor
+          - Path=/baylor/
         discovery:
           locator:
             enabled: true
