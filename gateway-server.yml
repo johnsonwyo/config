@@ -28,11 +28,11 @@ spring:
           - Path=/license/**
           filters:
           - RewritePath=/license/(?<path>.*), /$\{path}
-        - id: google
+        - id: organization-service
           uri: https://www.google.com/
           path: /google
-          # predicates:
-          # - Path=/**
+          predicates:
+          - Path=/organization/**
         - id: baylor
           uri: https://www.baylor.edu/
           path: /baylor
