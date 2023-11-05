@@ -33,11 +33,11 @@ spring:
           path: /google
           predicates:
           - Path=/**
-        # - id: baylor
-        #   uri: https://www.baylor.edu/
-        #   path: /baylor
-        #   predicates:
-        #   - Path=/**
+        - id: baylor
+          uri: https://www.baylor.edu/
+          path: /baylor
+          predicates:
+          - Path=/**
         # discovery:
         #   locator:
         #     enabled: true
